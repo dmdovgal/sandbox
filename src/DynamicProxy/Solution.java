@@ -3,8 +3,6 @@ package DynamicProxy;
 /*
 Дженерики для создания прокси-объекта
 */
-
-import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;
 
 public class Solution {
