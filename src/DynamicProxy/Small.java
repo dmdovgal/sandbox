@@ -1,4 +1,4 @@
 package DynamicProxy;
 
-public class Small {
+public interface Small {
 }

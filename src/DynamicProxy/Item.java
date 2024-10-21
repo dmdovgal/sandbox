@@ -1,4 +1,4 @@
 package DynamicProxy;
 
-public class Item {
+public interface Item {
 }
