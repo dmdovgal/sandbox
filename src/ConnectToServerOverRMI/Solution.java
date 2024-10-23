@@ -20,7 +20,6 @@ public class Solution {
     public static Thread CLIENT_THREAD = new Thread(new Runnable() {
         @Override
         public void run() {
-            // todo
             try {
                 registry = LocateRegistry.getRegistry(2099);
             } catch (RemoteException e) {
