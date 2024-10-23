@@ -27,9 +27,7 @@ public class Solution {
                     service.printName();
                     service.speak();
                 }
-            } catch (RemoteException e) {
-                e.printStackTrace();
-            } catch (NotBoundException e) {
+            } catch (RemoteException | NotBoundException e) {
                 e.printStackTrace();
             }
         }

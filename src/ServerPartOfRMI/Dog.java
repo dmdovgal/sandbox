@@ -4,7 +4,7 @@ import java.rmi.RemoteException;
 
 public class Dog implements Animal {
 
-    private String name;
+    private final String name;
 
     public Dog(String name) {
         this.name = name;
