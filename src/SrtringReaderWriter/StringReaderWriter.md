@@ -1,0 +1,3 @@
+Convert string to Reader & Convert Writer to String
+
+What ever is you need it for ...
