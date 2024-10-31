@@ -4,3 +4,4 @@
 2. RMI - client part: connecting to RMI server emulation - /ConnectToServerOverRMI
 4. RMI - server part: creating server part with two "meowing" and "woofing" services - /ServerPartOfRMI
 5. String to Reader & Writer to String - /StringReaderWriter
+6. MySQL Server configuration tips & tricks - /MySQL8Installation
