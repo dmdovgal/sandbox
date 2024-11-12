@@ -22,7 +22,6 @@ public class Run {
         ArrayList<Pet> pets = new ArrayList<>();
         pets.add(cat);
         pets.add(dog);
-        System.out.println(pets);
 
         StringWriter writer = new StringWriter();
         convertToJSON(writer, pets);
@@ -37,18 +36,19 @@ public class Run {
 
     @JsonAutoDetect
     public static class Pet {
-        String name;
+        public String name;
     }
 
     @JsonAutoDetect
     public static class Cat extends Pet {
-        int age;
-        int weight;
+        public int age;
+        public int weight;
     }
 
     @JsonAutoDetect
     public static class Dog extends Pet {
-        int age;
-        String owner;
+        public int age;
+        public String owner;
     }
 }
+
