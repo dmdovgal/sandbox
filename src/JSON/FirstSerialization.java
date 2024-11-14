@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.StringWriter;
 import java.util.ArrayList;
 
-public class Run {
+public class FirstSerialization {
     public static void main(String[] args) throws IOException {
         Cat cat = new Cat();
         cat.name = "Murka";
