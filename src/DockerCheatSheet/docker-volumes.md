@@ -1,3 +1,11 @@
+## Основные команды docker volume:
+
+    docker volume create
+    docker volume ls
+    docker volume inspect
+    docker volume rm
+    docker volume prune
+
 #### Создайте том с именем my_data_volume
 docker volume create my_data_volume
 
